@@ -1,0 +1,294 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@900&family=Poppins:wght@300&display=swap'); */
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Poppins:wght@300&display=swap'); */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    width: 1349px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo {
+    height: 53px;
+    width: 65px;
+    margin: 16px 0 0 50px;
+}
+#myntra-logo {
+    height: 33px;
+}
+a {
+    padding: 0 17px 0;
+    color: #282c3f;
+    font-size: 14px;
+    text-decoration: none;
+} 
+sup {
+    font-size: 10px;
+    color: #ff3f6c;
+    padding: 0 5px 0;
+}
+.navsearchbar {
+    height: 40px;
+    width: 366px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 135px;
+}
+.search-icon{
+    height: 40px;
+    width: 41px;
+    background-color: #F5F5F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+i {
+    color: black;
+    font-size: 18px;
+}
+
+.searchbar {
+    height: 40px;
+    width: 325px;
+    background-color: #F5F5F6;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 12px;
+    outline: none;
+
+}
+.profile-wishlist-bag {
+    height: 40px;
+    width: 194px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    margin-left: 5px;
+}
+.bx-user {
+margin-left: 8px;
+font-size: 20px;
+color: #6d6f79;
+}
+.bx-heart{
+    margin-left: 12px;
+    font-size: 20px;
+    color: #6d6f79;
+}
+.bx-shopping-bag {
+    margin-left: 1.2px;
+    font-size: 20px;
+    color: #6d6f79;
+}
+.hero {
+    height: 354px;
+    margin: 80px 0 0 0;
+}
+.hero img{
+    height: 354px;
+}
+.buttons {
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(180, 173, 173);
+    margin: 5px;
+}
+.buttons .button-dark {
+    background-color: #58595a;
+}
+.buttons button:hover {
+    background-color: #58595a;
+}
+.text-banner-title1 {
+    font-size: 30px;
+    color: #2b2e3d;
+    margin: 30px 0 80px 30px;
+    letter-spacing: 5px;
+}
+picture {
+    width: 1349px;
+    height: 359px;
+    display: flex;
+    margin-bottom: -30px;
+}
+.img-set1 {
+    height: 295px;
+    width: 224px;
+}
+.img-set1 img {
+    background-size: cover;
+    height: 295px;
+    width: 224px;
+}
+.text-banner-title2 {
+    font-size: 30px;
+    color: #2b2e3d;
+    margin: 30px 0 60px 30px;
+    letter-spacing: 5px;
+}
+.img-set2 {
+    height: 295px;
+    width: 224px;
+}
+.img-set2 img {
+    background-size: cover;
+    height: 295px;
+    width: 224px;
+}
+
+.text-banner-title3 {
+    font-size: 30px;
+    color: #2b2e3d;
+    margin: 30px 0 60px 30px;
+    letter-spacing: 5px;
+}
+.img-set3 {
+    width: 1349px;
+    height: 359px;
+    flex-wrap: wrap;
+    display: flex;
+   margin: 0 0 -50px 0;
+}
+.imgbox1 img {
+    background-size: cover;
+    height: 295px;
+    width: 224px;
+}
+
+/*Footer section*/
+
+footer {
+    background-color: #ececec;
+    margin: 50px 0 0 0;
+    height: 1100px;
+    width: 1349px;
+}
+.a-tag-elements1{
+    display: flex;
+}
+.online-shopping {
+    margin: 0 0 0 80px;
+}
+.online-shopping p {
+    color: #282c2f;
+    font-size: 13px;
+    margin: 70px 0 30px 20px;
+}
+.online-shopping a {
+  display: block;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #696b79;
+  font-size: 14px;
+  margin: 5px;
+}
+#useful-link {
+    margin-top: 20px;
+}
+
+.customer-policies p{
+    color: #282c2f;
+    font-size: 13px;
+    margin: 70px 0 30px 20px;
+}
+.customer-policies a {
+    display: block;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #696b79;
+  font-size: 14px;
+  margin: 5px;
+}
+.online-shopping img {
+    height: 42px;
+    width: 139px;
+}
+.experience-myntra p {
+    color: #282c2f;
+    font-size: 13px;
+    margin: 70px 0 30px 50px;
+}
+.inner-images img {
+    height: 42px;
+    width: 139px;
+}
+.web-icons {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.web-icons img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+.originalstamp {
+    margin: 50px 0 0 50px;
+}
+.original {
+    display: flex;
+}
+.original img {
+    height: 40px;
+    width: 48px;
+}
+.return {
+    display: flex;
+}
+.return img {
+    margin-top: 30px;
+    height: 50px;
+    width: 48px;
+}
+.return p {
+    margin: 40px 0 0 5px;
+}
+
+.popular-searches {
+    margin: -20px 0 0 50px;
+}
+
+.popular-searches p {
+    color: #282c2f;
+    font-size: 13px;
+    margin: 70px 0 30px 50px;
+    display: inline-block;
+}
+hr {
+    position: relative;
+    top: -40px;
+    left: 180px;
+    width: 80%;
+}
